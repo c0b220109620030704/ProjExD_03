@@ -122,6 +122,8 @@ def main():
             if event.type == pg.QUIT:
                 return
         
+
+        
         screen.blit(bg_img, [0, 0])
         
         if bird.rct.colliderect(bomb.rct):
